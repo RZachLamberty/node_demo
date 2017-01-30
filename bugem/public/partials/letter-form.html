@@ -1,0 +1,17 @@
+<h1>add a new letter</h1>
+
+<form>
+  <div class="form-group">
+    <label>Author ID</label>
+    <input class="form-control" ng-model="letter.author_id"></input>
+  </div>
+  <div class="form-group">
+    <label>title</label>
+    <input class="form-control" ng-model="letter.title"></input>
+  </div>
+  <div class="form-group">
+    <label>body</label>
+    <textarea class="form-control" ng-model="letter.body"></textarea>
+  </div>
+  <input type="button" class="btn btn-primary" value="Submit Letter" ng-click="save()"></input>
+</form>

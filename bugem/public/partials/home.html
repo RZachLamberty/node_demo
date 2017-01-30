@@ -1,0 +1,10 @@
+<h1>y'all craven as fuck</h1>
+<p>
+    <a href="/add-letter">add your own damn letter</a>
+</p>
+<ul>
+    <li ng-repeat='letter in letters'>
+        <strong><a href="/letter/{{letter._id}}">{{letter.title}}</a></strong>: {{letter.body}}
+        <a href="/letter/delete/{{letter._id}}"><i class="glyphicon glyphicon-trash"></i></a>
+    </li>
+</ul>
